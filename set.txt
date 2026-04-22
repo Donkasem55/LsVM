@@ -1,6 +1,6 @@
 INSTRUCTION SET
 
-0x00 mov
+0x00 mov (raw to reg)
 0x01 add
 0x02 sub
 0x03 mul
@@ -9,5 +9,11 @@ INSTRUCTION SET
 0x06 jmp
 0x07 call
 0x08 int
-
+0x09 addr (current address to register)
+0x0a mov (reg to reg)
+0x0b mov (reg to mem)
+0x0c mov (mem to reg)
+0x0d push
+0x0e pop
+0x0f mov (raw to reg)
 0x10 EOF

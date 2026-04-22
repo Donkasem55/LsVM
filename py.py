@@ -15,13 +15,19 @@ instr = {
         0x06: "jmp",
         0x07: "call",
         0x08: "int",
-
+        0x09: "addr",
+        0x0a: "mov",
+        0x0b: "mov",
+        0x0c: "mov",
+        0x0d: "push",
+        0x0e: "pop",
+        0x0f: "mov",
         0x10: "EOF"
 }
 
 insargs = {
         "0": ["EOF"],
-        "1": ["jmp", "call", "int"],
+        "1": ["jmp", "call", "int", "push", "pop", "addr"],
         "2": ["mov", "add", "sub", "mul", "div", "exp"]
 }
 
