@@ -1,2 +1,2 @@
-*.bin linguist-language=Bytecode
+*.bin linguist-language=GCC-Machine-Description
 *.bin linguist-detectable=true
